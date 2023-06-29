@@ -1,0 +1,101 @@
+.banner-nav {
+  background-color: #ff6200;
+}
+
+.navbar-text a {
+  text-decoration: none;
+  color: white !important;
+}
+
+nav {
+  font-family: "Bebas Neue", sans-serif;
+  color: white;
+  text-transform: uppercase;
+}
+
+.call-us,
+.login {
+  color: #be3600;
+}
+
+.primary-nav {
+  background-color: #f9f9f9;
+  color: black;
+}
+
+.navbar-brand {
+  font-size: 2.5rem !important;
+}
+
+.logo {
+  color: #ff6200;
+}
+
+/* .dropdown-menu-end {
+  list-style: none;
+}
+
+.dropdown-menu-end li {
+  font-weight: 200;
+} */
+
+.dropdown-menu {
+  max-width: 25%;
+  border-radius: 0;
+}
+
+.title-2:hover {
+  border-bottom: 3px solid #ff6200;
+}
+
+.breadcrumb {
+  font-family: "Open Sans", sans-serif;
+}
+
+.breadcrumb li a {
+  text-decoration: none;
+  color: #bfbfbf;
+}
+
+.breadcrumb-item .active {
+  font-weight: bold;
+  color: #6a6a6a;
+}
+
+.main-contact {
+  font-family: "Open Sans", sans-serif;
+  color: #ff6200;
+}
+
+.main-content {
+  color: #6a6a6a;
+}
+
+.contact-us,
+.reach-us {
+  font-family: "Open Sans", sans-serif;
+  color: #ff6200;
+  border-bottom: 5px solid #525252;
+  text-transform: uppercase;
+}
+
+.visually-hidden {
+  position: absolute;
+  left: -9999px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+.form-control {
+  background-color: #f6f6f6 !important;
+}
+
+.socials {
+  max-width: 48%;
+}
+
+i {
+  font-size: 2rem;
+  border-radius: 0;
+}
