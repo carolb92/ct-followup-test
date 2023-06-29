@@ -38,11 +38,11 @@
             <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav" aria-controls="nav" aria-label="expand navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="nav">
+            <div class="collapse navbar-collapse justify-content-md-end" id="nav">
                 <ul class="navbar-nav">
-                    <li class="nav-item pb-2">TITLE 1</li>
-                    <li class="nav-item pb-2 dropdown">
-                        <a href="#" class="nav-link title-2" role="button" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside">
+                    <li class="nav-item pb-2 px-md-2 px-lg-3">TITLE 1</li>
+                    <li class="nav-item pb-2 px-md-2 px-lg-3 dropdown">
+                        <a href="#" class="nav-link title-2 p-md-0" role="button" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside">
                             TITLE 2
                         </a>
                         <ul class="dropdown-menu text-center">
@@ -58,30 +58,30 @@
                             </li>
                         </ul>
                     </li>
-                    <li class="nav-item pb-2">TITLE 3</li>
-                    <li class="nav-item pb-2">TITLE 4</li>
-                    <li class="nav-item pb-2">TITLE 5</li>
-                    <li class="nav-item pb-2">TITLE 6</li>
-                    <li class="nav-item pb-2">TITLE 7</li>
+                    <li class="nav-item pb-2 px-md-2 px-lg-3">TITLE 3</li>
+                    <li class="nav-item pb-2 px-md-2 px-lg-3">TITLE 4</li>
+                    <li class="nav-item pb-2 px-md-2 px-lg-3">TITLE 5</li>
+                    <li class="nav-item pb-2 px-md-2 px-lg-3">TITLE 6</li>
+                    <li class="nav-item pb-2 px-md-2 px-lg-3">TITLE 7</li>
                 </ul>
             </div>
         </div>
     </nav>
 
     <main>
-        <div class="container my-4" aria-label="breadcrumb">
+        <div class="container my-4 my-md-5 pt-md-3" aria-label="breadcrumb">
             <div class="row">
                 <div class="col">
                     <ul class="breadcrumb">
                         <li class="breadcrumb-item"><a href="#">Home</a></li>
                         <li class="breadcrumb-item"><a href="#">Who we are</a></li>
-                        <li class="breadcrumb-item active" aria-current="page">Contact</li>
+                        <li class="breadcrumb-item active" aria-current="page"><strong>Contact</strong></li>
                     </ul>
                 </div>
             </div>
         </div>
 
-        <div class="container mb-4 px-4">
+        <div class="container mb-4 px-4 mb-md-5">
             <div class="row">
                 <div class="col">
                     <h2 class="main-contact"><strong>Contact</strong></h2>
@@ -92,34 +92,35 @@
 
         <div class="container mb-5 px-4">
             <div class="row">
-                <div class="col">
+                <div class="col-sm-12 col-md-6 mb-5">
                     <h3 class="contact-us pb-2">CONTACT US</h3>
-                    <form>
-                        <label for="name" class="form-label visually-hidden">Name</label>
-                        <input type="text" id="name" class="form-control my-2" placeholder="Name *" required>
+                    <form class="py-md-3">
+                        <div class="form-floating">
+                            <input type="text" id="name" class="form-control my-2" placeholder="Name *" required>
+                            <label for="name" class="form-label">Name *</label>
+                        </div>
+                        
                         <div class="row">
-                            <div class="col-6">
-                                <label for="phone" class="form-label visually-hidden">Phone number</label>
+                            <div class="col-6 pe-0 form-floating" style="text-indent:10px;">
                                 <input type="tel" class="form-control mb-2" id="phone" placeholder="Phone *" required>
+                                <label for="phone" class="form-label">Phone *</label> 
                             </div>
-                            <div class="col-6">
-                                <label for="email" class="form-label visually-hidden">Email</label>
+                            <div class="col-6 form-floating" style="text-indent:10px;">
                                 <input type="email" class="form-control mb-2" id="email" placeholder="Email *" required>
+                                <label for="email" class="form-label">Email *</label>
                             </div>
                         </div>
-                        <label for="message" class="form-label visually-hidden">Message</label>
-                        <input type="textarea" class="form-control mb-3" id="message" placeholder="Message *" required>
-                        <button class="btn px-3 submit-button" style="background-color: #ff6200; color:white; border-radius:0;">SUBMIT</button>
+                        <div class="form-floating">
+                            <textarea class="form-control mb-3" id="message" placeholder="Message *" style="height: 100px"></textarea>
+                            <label for="message" class="form-label">Message *</label>
+                        </div>
+                        <button class="btn px-3 mt-md-2 submit-button" style="background-color: #ff6200; color:white; border-radius:0;">SUBMIT</button>
                     </form>
                 </div>
-            </div>
-        </div>
 
-        <div class="container mb-5 px-4">
-            <div class="row">
-                <div class="col">
+                <div class="col-sm-12 col-md-6">
                     <h3 class="reach-us pb-2">REACH US</h3>
-                    <address>
+                    <address class="mt-lg-4">
                         Coalition Skills Test
                         <br>
                         535 La Plata Street
@@ -131,29 +132,29 @@
                         <br>
                         Fax: 385.154.35.66.78
                     </address>
+
+                    <div class="container socials d-flex align-items-start ms-0 mt-5 mt-md-4 ps-0 pt-md-5">
+                        <div class="row">
+                            <div class="col-3">
+                                <i class="fa-brands fa-square-facebook" style="color:#363636"></i>
+                            </div>
+                            <div class="col-3">
+                                <i class="fa-brands fa-square-twitter" style="color: #d0d0d0;"></i>
+                            </div>
+                            <div class="col-3">
+                                <i class="fa-brands fa-linkedin" style="color: #d0d0d0;"></i>
+                            </div>
+                            <div class="col-3">
+                                <i class="fa-brands fa-square-pinterest" style="color: #d0d0d0;"></i>
+                            </div>
+                        </div>
+                    </div>
                 </div>
+
+                
             </div>
         </div>
     </main>
-    
-    <footer>
-        <div class="container socials d-flex align-items-start ms-2">
-            <div class="row">
-                <div class="col-3">
-                    <i class="fa-brands fa-square-facebook" style="color:#363636"></i>
-                </div>
-                <div class="col-3">
-                    <i class="fa-brands fa-square-twitter" style="color: #d0d0d0;"></i>
-                </div>
-                <div class="col-3">
-                    <i class="fa-brands fa-linkedin" style="color: #d0d0d0;"></i>
-                </div>
-                <div class="col-3">
-                    <i class="fa-brands fa-square-pinterest" style="color: #d0d0d0;"></i>
-                </div>
-            </div>
-        </div> 
-    </footer>
     
 </body>
 </html>

@@ -31,14 +31,6 @@ nav {
   color: #ff6200;
 }
 
-/* .dropdown-menu-end {
-  list-style: none;
-}
-
-.dropdown-menu-end li {
-  font-weight: 200;
-} */
-
 .dropdown-menu {
   max-width: 25%;
   border-radius: 0;
@@ -87,6 +79,10 @@ nav {
   overflow: hidden;
 }
 
+form {
+  color: #6a6a6a;
+}
+
 .form-control {
   background-color: #f6f6f6 !important;
 }
@@ -98,4 +94,13 @@ nav {
 i {
   font-size: 2rem;
   border-radius: 0;
+}
+
+@media screen and (min-width: 1200px) {
+  .banner-nav,
+  .primary-nav,
+  main {
+    padding-left: 200px !important;
+    padding-right: 200px !important;
+  }
 }
